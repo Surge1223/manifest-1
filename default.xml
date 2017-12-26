@@ -36,7 +36,7 @@
 
   <!-- Kernel Source -->
   <project  path="kernel/google/taimen" name="android_kernel_google_taimen" groups="device,angler,broadcom_pdk" remote="me" revision="android-msm-wahoo-4.4-oreo-mr1" />
-  <project path="build/make" name="platform/build" groups="pdk" remote="me" revision="o-mr2" >
+  <project path="build/make" name="android_build" groups="pdk" remote="me" revision="o-mr2" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
